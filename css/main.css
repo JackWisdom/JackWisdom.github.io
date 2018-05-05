@@ -1,0 +1,47 @@
+/*导航栏样式开始*/
+body{
+    background: black;
+}
+div#nav{
+
+
+    padding: 0;
+    border: 0;
+    /*居中*/
+    margin: 0 auto;
+    text-align: center;
+    /*居中结束*/
+}
+div#nav ul#menu{
+
+    padding: 0;
+    border: 0;
+    text-align: center;
+
+}
+ul#menu li.element{
+    padding: 0;
+    border: 0;
+    width: 100px;
+    font-size: 20px;
+    height: 60px;
+    margin-left: 30px;
+    display: inline-block;/*作为块元素处理 同时使用inline取消换行*/
+    list-style: none;/*去掉默认列表符号*/
+    background: yellow;/*背景颜色*/
+
+
+}
+li.element a{
+    text-decoration: none;/*去掉下划线*/
+}
+
+/*导航栏样式结束*/
+/*正文样式开始*/
+div#context{
+    color: aqua;
+}
+div#context img{
+    ;
+}
+/*正文样式结束*/
