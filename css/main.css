@@ -32,7 +32,7 @@ ul#menu li.element{
     margin-left: 30px;
     display: inline;/*使用inline取消自动换行*/
     list-style: none;/*去掉默认列表符号*/
-    background: yellow;/*背景颜色*/
+    background: gray;/*背景颜色*/
 
 
 }
