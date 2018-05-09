@@ -44,7 +44,7 @@ li.element a{
     /*去掉下划线*/
 }
 li.element a:hover{
-    background: green;/*悬停*/
+    background: black;/*悬停*/
 
 }
 /*导航栏中地址样式结束*/
