@@ -5,50 +5,8 @@
     text-align: center;
     /*居中结束*/
 }
-/*导航栏样式开始*/
 body{
     background: black;
-}
-div#nav{
-
-    background: green;
-    padding: 10px;
-    border: 10px;
-
-}
-div#nav ul#menu{
-
-    padding: 0;
-    border: 0;
-    text-align: center;
-
-}
-ul#menu li.element{
-    padding: 0;
-    border: 0;
-    width: 100px;
-    font-size: 23px;
-    height: 60px;
-    margin-left: 30px;
-    display: inline;/*使用inline取消自动换行*/
-    list-style: none;/*去掉默认列表符号*/
-    background: yellow;/*背景颜色*/
-
-
-}
-
-/*导航栏中地址样式*/
-li.element a{
-    display: inline-block;/*使用inline取消自动换行 并用当做块处理*/
-    text-decoration: none;
-    /*去掉下划线*/
-}
-li.element a:hover{
-    background: green;/*悬停*/
-
-}
-/*导航栏中地址样式结束*/
-/*导航栏样式结束*/
 /*正文样式开始*/
 div#context{
 
