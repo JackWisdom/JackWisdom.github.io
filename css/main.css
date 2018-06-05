@@ -1,18 +1,8 @@
 /*所有页面通用样式*/
 *{
-    /*居中*/
-    margin: 0 auto;
-    text-align: center;
-    /*居中结束*/
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 }
-body{
-    background: black;
-/*正文样式开始*/
-div#context{
-
-}
-div#context p{
-    color: aqua;
-    font-size: 20px;
-}
-/*正文样式结束*/
+ 
