@@ -1,0 +1,10 @@
+/* CSS Document */
+div#context{
+	display: inline-block
+}
+p.large{
+	font-size: 30px;
+}
+p.mid{
+	font-size: 20px;
+}

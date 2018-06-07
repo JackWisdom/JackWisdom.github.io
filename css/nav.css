@@ -1,0 +1,52 @@
+
+div#nav{
+	height: 50px;
+	display:  block;
+}
+div#nav ul#menu{
+	list-style: none;
+	background:#000000;
+}
+div#nav ul#menu li {
+	 
+	display: inline-block;
+	margin: 0;
+}
+div#nav a{
+	text-decoration: none;
+	display: block;
+	line-height: 50px;
+		 /*line-height是设置文字高度 如果是0那么置顶 如果和div一样那就是居中*/
+	color: wheat
+}
+div#nav ul#menu li a:hover {
+	background-color:#2A2929;
+	color: white;
+
+	/*通过设置字体可以实现文字变大，变小的效果*/
+}
+div#nav li#a{
+	width: 15%;
+	height: 50px;
+ 
+}
+div#nav li#b{
+	width: 15%;
+	height: 50px;
+ 
+}
+div#nav li#c{
+	width: 15%;
+	height: 50px;
+ 
+}
+div#nav li#d{
+	width: 15%;
+	height: 50px;
+ 
+}
+div#nav li#e{
+	width: 15%;
+	height: 50px;
+ 
+}

@@ -1,0 +1,85 @@
+/*显示年的方块*/
+div.diamond{
+	height: 70px;
+	width: 70px;
+	border-style: solid;
+	border-color: antiquewhite;
+	transform: rotate(45deg);
+	margin-left: -33px;
+	background-color: aquamarine;
+}
+div.diamond p{
+    transform: rotate(-45deg);
+	margin-top: 15px;
+	position: absolute;
+	color: cadetblue;
+}
+/*时间线全局*/
+#timezone{
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: antiquewhite;
+	height: 500px;
+	width: 10px;
+	display: block;
+	border-radius: 3px;
+}
+/*中间小圆圈*/
+div.left,div.right{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin-left: -8px;
+	background-color: aquamarine;
+	border: solid ;
+	border-color: beige;
+	margin-top: 80px;
+}
+ /*文本内容*/
+div.left div,div.right div{
+	position: absolute;
+	margin-left: -400px;
+	margin-top: -5px;
+	width: 300px;
+	height: 20px;
+	background-color:aquamarine;
+	opacity: 50%;
+	border: solid;
+	border-color: skyblue;
+	border-radius: 3px;
+	overflow: hidden;
+}
+div.right div{
+	margin-left: 100px;
+}
+div.left h1,div.right h1{
+	border: none;
+    border-bottom-style: solid;
+	border-color: aliceblue;
+	border-width: 1px;
+	
+}
+div.left div:hover,div.right div:hover{
+   height: 100px;
+}
+ 
+/*时间线位置以及字体*/
+div.right h2,div.left h2{
+	color: aliceblue;
+	position: absolute;
+	margin-left: -250px;
+	}
+div.left h2{
+	color: aliceblue;
+	position: absolute;
+	margin-left: 50px;
+}
+div.left p,div.right p{
+	 color: whitesmoke;
+}
+#timezone h1{
+	color: aliceblue;
+	position: relative;
+	font-size: 20px;
+	cursor: pointer;
+}
